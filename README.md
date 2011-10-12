@@ -7,6 +7,13 @@ There is an example cross-domain ajax request for image data (canvas does not su
 
 Because the `navigator.onLine` is not consistently support and its behavior varies from browser to browser, there is a ping function that continuously polls a server side ping.php file to check if the connection has been lost.
 
+Demo
+----
+
+http://chovy.dyndns.org/offline-app/stuff.htm
+
+You can unplug your network cable or turn off Airport (mac os) to simulate offline mode, and you should see the images and data being loaded from localStorage.
+
 Usage
 -----
 
