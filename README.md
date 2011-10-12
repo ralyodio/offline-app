@@ -7,11 +7,16 @@ There is an example cross-domain ajax request for image data (canvas does not su
 
 Because the `navigator.onLine` is not consistently support and its behavior varies from browser to browser, there is a ping function that continuously polls a server side ping.php file to check if the connection has been lost.
 
+Usage
+-----
+
+There are two functions `doOffline()` and `doOnline()` which get triggered whenever the user comes back online or goes offline. This can be used to read and write from localStorage or update a central server once they come back online.
+
 Requirements
 ------------
 
 Modern browser (chrome, firefox, safari).
-PHP processing for .manifest files (see .htaccess)
+Apache w/ PHP processing for .manifest files (see .htaccess)
 
 Caveats
 -------
