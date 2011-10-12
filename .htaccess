@@ -1,0 +1,6 @@
+#ExpiresActive On
+Header unset ETag
+FileETag None
+AddType application/x-httpd-php .php .htm .html .manifest
+Header add Access-Control-Allow-Origin *
+Header add Access-Control-Allow-Credentials true

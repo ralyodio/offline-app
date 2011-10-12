@@ -1,0 +1,16 @@
+html, html * { margin: 0; padding: 0; }
+#stuff:after, .clearfix:after { content: '.'; display: block; clear: both; visibility: hidden; overflow: hidden; height: 0; font-size: 0; }
+
+html { background: #eee; }
+body { margin: 20px auto; width: 800px; background: #fff; border: 1px solid #999; border-radius: 5px; padding: 10px; font-family: sans-serif; }
+ul, ol { list-style-type: none; }
+
+body { background: #efe; }
+body.offline { background: #fee; }
+#stuff { margin: 20px 0; }
+#stuff li { float: left; margin-left: 20px; text-align: center; width: 120px; }
+#stuff .cover { border: 1px solid #999; display: block; margin-bottom: 10px; }
+#stuff a { text-decoration: none; color: #000; }
+
+#status { border: 1px solid #eee; border-radius: 5px; margin: 20px; }
+#status p { margin-top: 10px; }

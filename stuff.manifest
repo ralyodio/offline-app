@@ -1,0 +1,13 @@
+<? header('Content-Type: text/cache-manifest'); ?>
+CACHE MANIFEST
+# version 0.0.4
+
+CACHE:
+a/j/jquery-1.6.4.min.js
+a/j/main.js
+a/c/main.css
+
+NETWORK:
+*
+http://*
+https://*
