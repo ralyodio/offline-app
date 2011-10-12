@@ -72,7 +72,7 @@ var checkOnline = function(){
     cache: false
   });
 
-  var jxhr = $.get('http://chovy.dyndns.org/offline/ping.php', function(){
+  var jxhr = $.get('ping.php', function(){
 		log.add("Succeeded");
     isOnline = true;
   }).error(function(){
