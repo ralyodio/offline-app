@@ -3,7 +3,7 @@ offline-app
 
 offline-app is an example offline web application. It uses an HTML5 manifest file for storing static files in the application cache along with localStorage.
 
-There is an example cross-domain ajax request for image data (canvas does not support cross domain image loading). The image data string (base64 encoded) can then be stored in localStorage for offline use.
+There is an example cross-domain ajax request for image data (canvas does not support cross domain image loading) for loading images from a CDN for example. The image data string (base64 encoded) can then be stored in localStorage for offline use.
 
 Because the `navigator.onLine` is not consistently support and its behavior varies from browser to browser, there is a ping function that continuously polls a server side ping.php file to check if the connection has been lost.
 
