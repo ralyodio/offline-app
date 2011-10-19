@@ -19,6 +19,8 @@ Usage
 
 There are two functions `doOffline()` and `doOnline()` which get triggered whenever the user comes back online or goes offline. This can be used to read and write from localStorage or update a central server once they come back online.
 
+You can switch to offline mode in Firefox, or simply unplug your network cable or turn off Airport (mac wifi). This will cause the static ping to fail and run the `doOffline()` function.
+
 Requirements
 ------------
 
