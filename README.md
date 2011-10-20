@@ -34,6 +34,6 @@ To fully test the offline ping.php request, the site cannot be ran on localhost 
 
 In order for cross-domain image requests to work, the images need to be served with the following headers (see .htaccess):
 
-	Header add Access-Control-Allow-Origin *
-	Header add Access-Control-Allow-Credentials true
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Credentials: true
 
