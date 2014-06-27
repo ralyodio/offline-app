@@ -10,7 +10,7 @@ Because the `navigator.onLine` is not consistently supported and its behavior va
 Demo
 ----
 
-http://chovy.dyndns.org/offline-app/stuff.htm
+http://chovy.us.to/offline-app/stuff.htm
 
 You can unplug your network cable or turn off Airport (mac os) to simulate offline mode, and you should see the images and data being loaded from localStorage.
 
